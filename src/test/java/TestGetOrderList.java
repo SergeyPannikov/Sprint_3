@@ -10,7 +10,7 @@ public class TestGetOrderList {
 
     @Before
     public void setUp() {
-        RestAssured.baseURI = "https://qa-scooter.praktikum-services.ru";
+        RestAssured.baseURI = TestCreateCourier.BASEURI;
     }
 
     @DisplayName("Проверка что тело ответа возвращает непустой список заказов")
